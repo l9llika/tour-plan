@@ -519,7 +519,7 @@ template {
 }
 
 .hotel {
-  padding-top: 14px;
+  padding-top: 23px;
   padding-bottom: 70px;
 }
 
@@ -580,6 +580,14 @@ template {
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stars-star {
+  margin-right: 2px;
 }
 
 .offer {
@@ -595,13 +603,12 @@ template {
 .rating {
   max-width: 65px;
   min-height: 45px;
-  margin-top: 3px;
   text-align: center;
   color: #fff;
   background-color: #EC1F46;
   -webkit-border-radius: 4px;
           border-radius: 4px;
-  padding-top: 4px;
+  padding-top: 2px;
 }
 
 .rating__text {
