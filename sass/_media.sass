@@ -31,6 +31,7 @@
     &__input
       width: 340px
   .hotel
+    padding-bottom: 56px
     &-grid
       flex-direction: column
     &__slider
@@ -48,6 +49,8 @@
     object-fit: cover
   .map
     width: 340px
+  .newsletter
+    padding-top: 92px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -100,12 +103,39 @@
   .map
     width: 100%
   .newsletter
+    height: 320px
+    width: 100%
+    padding-top: 76px
+    padding-bottom: 83px
     &-wrapper
       flex-direction: column
       align-items: flex-start
       max-width: 576px
       width: 92%
-
+      height: 100%
+    &__title
+      font-style: normal
+      font-weight: 300
+      font-size: 20px
+      line-height: 25px
+      margin-top: 0
+    &__strong
+      font-style: normal
+      font-weight: 600
+      font-size: 30px
+      line-height: 38px
+  .subscribe
+    width: 280px
+    height: 55px
+    &__input
+      width: 280px
+      height: 55px
+      z-index: 99
+    &__button
+      position: absolute
+      width: 65px
+      height: 55px
+      z-index: 99
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -118,8 +148,6 @@
     padding: 76px 0 83px 0
     &__title
       margin-bottom: 37px
-  .subscribe
-    width: 100%
 @media (max-width: 320px)
   .hotel
     padding-top: 0
@@ -135,5 +163,39 @@
   .slider
     height: 179px
   .booking
+    margin-bottom: 0px
     &__info
       margin-bottom: 10px
+  .map
+    height: 173px
+  .newsletter
+    height: 320px
+    width: 320px
+    padding-top: 76px
+    padding-bottom: 83px
+    &-wrapper
+      flex-direction: column
+      align-items: flex-start
+    &__title
+      font-style: normal
+      font-weight: 300
+      font-size: 20px
+      line-height: 25px
+      margin-top: 0
+      &__strong
+        font-style: normal
+        font-weight: 600
+        font-size: 30px
+        line-height: 38px
+  .subscribe
+    width: 280px
+    height: 55px
+    &__input
+      width: 280px
+      height: 55px
+      z-index: 99
+    &__button
+      position: absolute
+      width: 65px
+      height: 55px
+      z-index: 99
