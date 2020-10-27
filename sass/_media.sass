@@ -19,7 +19,7 @@
       padding-top: 30px
       padding-bottom: 30px
     &__search
-      margin-left: auto
+      margin-left: 47px
     &-menu
       padding-top: 22px
       padding-bottom: 22px
@@ -38,6 +38,10 @@
       flex-direction: row
   .booking
     width: 340px
+    max-height: 155px
+    padding: 29px 22px 26px 23px
+    &__per-room
+      line-height: 10px
   .slider
     width: 100%
     object-fit: cover
@@ -104,7 +108,19 @@
     &__slider
       margin-bottom: 20px
 @media (max-width: 320px)
+  .hotel
+    padding-top: 0
+    &-info
+      padding-bottom: 38px
   .container
     max-width: 280px
+  .stars
+    padding-top: 5px
+    padding-right: 16px
+    &__star
+      padding-right: 2px
   .slider
     height: 179px
+  .booking
+    &__info
+      margin-bottom: 10px

@@ -618,6 +618,10 @@ template {
           align-items: flex-start;
 }
 
+.stars__star {
+  padding-right: 2px;
+}
+
 .offer {
   font-size: 10px;
   line-height: 13px;
@@ -719,6 +723,7 @@ template {
   width: 350px;
   min-height: 210px;
   padding: 28px;
+  font-family: Nunito;
 }
 
 .booking__info {
@@ -765,7 +770,7 @@ template {
 .booking__per-room {
   font-weight: normal;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 12px;
 }
 
 .booking__text {
@@ -890,7 +895,7 @@ template {
     padding-bottom: 30px;
   }
   .navbar__search {
-    margin-left: auto;
+    margin-left: 47px;
   }
   .navbar-menu {
     padding-top: 22px;
@@ -922,6 +927,11 @@ template {
   }
   .booking {
     width: 340px;
+    max-height: 155px;
+    padding: 29px 22px 26px 23px;
+  }
+  .booking__per-room {
+    line-height: 10px;
   }
   .slider {
     width: 100%;
@@ -1036,10 +1046,26 @@ template {
 }
 
 @media (max-width: 320px) {
+  .hotel {
+    padding-top: 0;
+  }
+  .hotel-info {
+    padding-bottom: 38px;
+  }
   .container {
     max-width: 280px;
   }
+  .stars {
+    padding-top: 5px;
+    padding-right: 16px;
+  }
+  .stars__star {
+    padding-right: 2px;
+  }
   .slider {
     height: 179px;
+  }
+  .booking__info {
+    margin-bottom: 10px;
   }
 }
