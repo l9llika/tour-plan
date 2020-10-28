@@ -874,11 +874,6 @@ template {
   height: 260px;
   width: 100%;
   padding: 98px 0 87px 0;
-  background-image: url(../img/newsletter-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-          background-size: cover;
 }
 
 .newsletter:before {
@@ -928,6 +923,13 @@ template {
   font-size: 36px;
   line-height: 45px;
   text-transform: uppercase;
+}
+
+.parallax-window {
+  width: 100%;
+  min-height: 260px;
+  background: transparent;
+  margin-top: -172px;
 }
 
 .subscribe {
@@ -1157,6 +1159,9 @@ template {
     font-size: 12px;
     line-height: 15px;
   }
+  .parallax-window {
+    margin-top: -168px;
+  }
   .search__input {
     width: 340px;
   }
@@ -1327,6 +1332,11 @@ template {
     font-weight: 600;
     font-size: 30px;
     line-height: 38px;
+  }
+  .parallax-window {
+    height: 320px;
+    width: 100%;
+    margin-top: -238px;
   }
   .subscribe {
     width: 280px;
