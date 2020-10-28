@@ -1651,7 +1651,15 @@ template {
     right: 115px;
   }
   .activities {
-    padding-top: 19px;
+    padding-top: 18px;
+  }
+  .activities__card {
+    width: 100%;
+    height: 255px;
+    margin-bottom: 20px;
+  }
+  .activities-card2 {
+    margin-bottom: 28px;
   }
   .activities__title {
     margin-bottom: 36px;
@@ -1659,10 +1667,5 @@ template {
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
-  }
-  .card {
-    width: 100%;
-    height: 255px;
-    margin-bottom: 20px;
   }
 }
