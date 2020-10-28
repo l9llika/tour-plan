@@ -8,6 +8,9 @@
         height: 100%
         width: 100%
         object-fit: cover
+  .card
+    width: 230px
+    height: 250px
 @media (max-width: 992px)
   .container,
   .newsletter-wrapper
@@ -26,6 +29,8 @@
       &__link
         font-size: 12px
         line-height: 15px
+  .parallax-window
+    margin-top: -168px
   .search
     &__input
       width: 340px
@@ -51,11 +56,35 @@
   .newsletter
     padding-top: 92px
   .reviews
+    &__title
+      font-style: normal
+      font-weight: bold
+      font-size: 30px
+      line-height: 38px
+      text-align: center
+      text-transform: uppercase
+      margin-bottom: 50px
     &-slider
       &__item
         max-width: 580px
       &__text
         width: 455px
+      &__button
+        top: 172px
+        &--prev
+          left: 3px
+        &--next
+          right: 3px
+  .activities
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      margin-bottom: 20px
+    &__title
+      margin-top: 10px
+  .card
+    width: 340px
+    height: 255px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -129,6 +158,10 @@
       font-weight: 600
       font-size: 30px
       line-height: 38px
+  .parallax-window
+    height: 320px
+    width: 100%
+    margin-top: -238px
   .subscribe
     width: 280px
     height: 55px
@@ -159,6 +192,12 @@
           right: 50%
           margin-right: -65px
           transform: translate(50%, 0)
+  .activities
+    padding-top: 40px
+    padding-bottom: 60px
+  .card
+    width: 49%
+    height: 255px
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -171,13 +210,19 @@
     padding: 76px 0 83px 0
     &__title
       margin-bottom: 37px
+  .card
+    width: 100%
 @media (max-width: 320px)
   .hotel
     padding-top: 0
+    padding-bottom: 0
     &-info
       padding-bottom: 38px
     &-slider
       height: 179px
+    &-right
+      min-height: 400px
+      margin-bottom: 40px
   .container
     max-width: 280px
   .stars
@@ -186,7 +231,7 @@
     &__star
       padding-right: 2px
   .booking
-    margin-bottom: 0px
+    margin-bottom: 20px
     &__info
       margin-bottom: 10px
   .map
@@ -199,13 +244,15 @@
     &-wrapper
       flex-direction: column
       align-items: flex-start
-    &__title
+      margin-left: 20px
+    &-title
       font-style: normal
       font-weight: 300
       font-size: 20px
       line-height: 25px
       margin-top: 0
       &__strong
+        margin-top: 5px
         font-style: normal
         font-weight: 600
         font-size: 30px
@@ -222,3 +269,37 @@
       width: 65px
       height: 55px
       z-index: 99
+  .reviews
+    &__title
+      margin-left: auto
+      margin-right: auto
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      text-align: center
+      text-transform: uppercase
+      margin-bottom: 42px
+      width: 245px
+      word-wrap: break-word
+    &-slider
+      &__button
+        top: 28px
+        &--prev
+          left: 112px
+        &--next
+          right: 115px
+  .activities
+    padding-top: 18px
+    &__card
+      width: 100%
+      height: 255px
+      margin-bottom: 20px
+    &-card2
+      margin-bottom: 28px
+    &__title
+      margin-bottom: 36px
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px

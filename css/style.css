@@ -1132,6 +1132,10 @@ template {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .card {
+    width: 230px;
+    height: 250px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1156,6 +1160,9 @@ template {
   .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
+  }
+  .parallax-window {
+    margin-top: -168px;
   }
   .search__input {
     width: 340px;
@@ -1199,11 +1206,44 @@ template {
   .newsletter {
     padding-top: 92px;
   }
+  .reviews__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
   .reviews-slider__item {
     max-width: 580px;
   }
   .reviews-slider__text {
     width: 455px;
+  }
+  .reviews-slider__button {
+    top: 172px;
+  }
+  .reviews-slider__button--prev {
+    left: 3px;
+  }
+  .reviews-slider__button--next {
+    right: 3px;
+  }
+  .activities-wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .activities__card {
+    margin-bottom: 20px;
+  }
+  .activities__title {
+    margin-top: 10px;
+  }
+  .card {
+    width: 340px;
+    height: 255px;
   }
 }
 
@@ -1328,6 +1368,11 @@ template {
     font-size: 30px;
     line-height: 38px;
   }
+  .parallax-window {
+    height: 320px;
+    width: 100%;
+    margin-top: -238px;
+  }
   .subscribe {
     width: 280px;
     height: 55px;
@@ -1369,6 +1414,14 @@ template {
         -ms-transform: translate(50%, 0);
             transform: translate(50%, 0);
   }
+  .activities {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .card {
+    width: 49%;
+    height: 255px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1387,17 +1440,25 @@ template {
   .newsletter__title {
     margin-bottom: 37px;
   }
+  .card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
   .hotel {
     padding-top: 0;
+    padding-bottom: 0;
   }
   .hotel-info {
     padding-bottom: 38px;
   }
   .hotel-slider {
     height: 179px;
+  }
+  .hotel-right {
+    min-height: 400px;
+    margin-bottom: 40px;
   }
   .container {
     max-width: 280px;
@@ -1410,7 +1471,7 @@ template {
     padding-right: 2px;
   }
   .booking {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
   .booking__info {
     margin-bottom: 10px;
@@ -1434,15 +1495,17 @@ template {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
             align-items: flex-start;
+    margin-left: 20px;
   }
-  .newsletter__title {
+  .newsletter-title {
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
     margin-top: 0;
   }
-  .newsletter__title__strong {
+  .newsletter-title__strong {
+    margin-top: 5px;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -1462,5 +1525,45 @@ template {
     width: 65px;
     height: 55px;
     z-index: 99;
+  }
+  .reviews__title {
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    width: 245px;
+    word-wrap: break-word;
+  }
+  .reviews-slider__button {
+    top: 28px;
+  }
+  .reviews-slider__button--prev {
+    left: 112px;
+  }
+  .reviews-slider__button--next {
+    right: 115px;
+  }
+  .activities {
+    padding-top: 18px;
+  }
+  .activities__card {
+    width: 100%;
+    height: 255px;
+    margin-bottom: 20px;
+  }
+  .activities-card2 {
+    margin-bottom: 28px;
+  }
+  .activities__title {
+    margin-bottom: 36px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
   }
 }
