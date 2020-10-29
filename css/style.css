@@ -1987,29 +1987,31 @@ template {
     margin-top: 20px;
     max-width: 83px;
   }
-  .footer__additional {
+  .footer__legal {
     margin-left: 0;
-    margin-top: 5px;
+    margin-top: 4px;
     -ms-grid-row: 3;
     grid-row: 3;
     -ms-grid-column: 1;
     grid-column: 1;
   }
-  .footer__categories {
+  .footer__additional {
+    margin-left: 0;
+    margin-top: 5px;
     -ms-grid-row: 4;
     grid-row: 4;
     -ms-grid-column: 1;
     grid-column: 1;
   }
-  .footer__legal {
-    margin: 0;
+  .footer__categories {
     -ms-grid-row: 5;
     grid-row: 5;
     -ms-grid-column: 1;
     grid-column: 1;
+    margin-top: 6px;
   }
   .footer__contact-details {
-    margin-top: 24px;
+    margin-top: 12px;
     -ms-grid-row: 6;
     grid-row: 6;
     -ms-grid-column: 1;
@@ -2030,7 +2032,7 @@ template {
     margin-top: 24px;
   }
   .footer__form {
-    margin-top: 12px;
+    margin-top: 16px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
