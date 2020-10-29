@@ -146,9 +146,45 @@
   .container
     max-width: 576px
     width: 92%
+  body
+    padding-top: 78px
   .navbar
-    &__search, &-menu, &__user
+    &__mobile
+      &--fixed
+        position: fixed
+        left: 0
+        right: 0
+        top: 0
+        z-index: 99
+    &__user, &__search
+      &--mobile
+        &--hidden
+          display: none
+        &--visible
+          margin-left: 0
+          width: 243px
+          display: flex
+    &__user
+      flex-direction: column
+      justify-content: center
+    &-bottom
       display: none
+      position: fixed
+      left: 0
+      right: 0
+      bottom: 0
+      top: 78px
+      padding-top: 30px
+      z-index: 199
+      &--visible
+        display: block
+    &-menu
+      flex-direction: column
+      &__item
+        margin-bottom: 20px
+        &--mobile
+          &--visible
+            display: flex
   .menu
     &-button
       display: flex
@@ -165,6 +201,12 @@
         width: 16px
         height: 1px
         background-color: $text-color
+  .user
+    &__name
+      &--light
+        color: $light
+        margin-left: 0
+        margin-top: 10px
   .stars
     flex-basis: auto
   .hotel
@@ -225,12 +267,12 @@
     &__input
       width: 280px
       height: 55px
-      z-index: 99
+      z-index: 5
     &__button
       position: absolute
       width: 65px
       height: 55px
-      z-index: 99
+      z-index: 5
   .reviews
     &-slider
       &__item
@@ -380,12 +422,12 @@
     &__input
       width: 280px
       height: 55px
-      z-index: 99
+      z-index: 5
     &__button
       position: absolute
       width: 65px
       height: 55px
-      z-index: 99
+      z-index: 5
   .reviews
     &__title
       margin-left: auto
