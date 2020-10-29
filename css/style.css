@@ -1951,10 +1951,14 @@ template {
     -webkit-align-items: start;
         -ms-flex-align: start;
             align-items: start;
+    width: 100%;
   }
   .footer__input {
-    width: 100%;
+    min-width: 100%;
     min-height: 50px;
+  }
+  .footer__massage {
+    max-height: 123px;
   }
   .footer__button {
     -webkit-box-ordinal-group: 3;
