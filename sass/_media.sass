@@ -118,6 +118,7 @@
     &__title
       &--mb-3
         padding-top: 5px
+        margin-bottom: 28px
     &__item
       &--mb-2
         padding-left: 3px
@@ -298,8 +299,16 @@
     width: 49%
     height: 255px
   .footer
+    &__icon
+      &-wrapper
+        min-width: 31px
+    &__form
+      width: 98%
     &__input
       flex-basis: 100%
+    &__bottom
+      &-links
+        max-width: 280px
 
 @media (max-width: 576px)
   .logo
@@ -326,7 +335,7 @@
       grid-column: 1
     &__social
       &-network
-        margin: 18px 0 0 0
+        margin: 14px 0 0 0
         flex-direction: column
         grid-row: 2
         grid-column: 1
@@ -335,6 +344,7 @@
         max-width: 83px
     &__additional
       margin-left: 0
+      margin-top: 5px
       grid-row: 3
       grid-column: 1
     &__categories
@@ -346,20 +356,30 @@
       grid-column: 1
     &__contact
       &-details
+        margin-top: 24px
         grid-row: 6
         grid-column: 1
       &-form
+        margin-top: 6px
         grid-row: 7
         grid-column: 1
+    &__title
+      &--mb-3
+        margin-bottom: 0
+    &__text
+      line-height: 23px
+      margin-top: 24px
     &__form
+      margin-top: 12px
       flex-direction: column
       align-items: start
-      width: 100%
+      width: 98%
     &__input
       min-width: 100%
       min-height: 50px
     &__massage
       max-height: 123px
+      margin-bottom: 16px
     &__button
       order: 2
     &__info
@@ -369,6 +389,9 @@
       align-items: flex-start
       justify-content: flex-start
       flex-direction: column
+      &-links
+        max-width: 280px
+        margin-right: 4px
     &__payment
       margin-top: 10px
 @media (max-width: 320px)
