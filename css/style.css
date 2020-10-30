@@ -51,6 +51,10 @@ img {
   border: none;
 }
 
+.button__back {
+  margin-top: 20px;
+}
+
 .form {
   display: -webkit-box;
   display: -webkit-flex;
