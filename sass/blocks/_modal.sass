@@ -18,7 +18,7 @@
     top: 46.5%
     left: 50%
     max-width: 478px
-    height: 487px
+    min-height: 487px
     padding: 33px 88px
     border-radius: 8px
     transform: translate(-50%, -50%)
@@ -28,7 +28,6 @@
     visibility: hidden
     opacity: 0
     transition: opacity 0.2s
-
     &--visible
       visibility: visible
       opacity: 1
@@ -49,7 +48,7 @@
     text-align: center
   &__input
     width: 100%
-    margin-bottom: 15px
+    margin-top: 15px
     font-style: normal
     font-weight: normal
     font-size: 12px
@@ -57,11 +56,13 @@
   &__massage
     width: 100%
     min-height: 123px
-    margin-bottom: 11px
+    margin-top: 11px
     font-style: normal
     font-weight: normal
     font-size: 12px
     line-height: 15px
+  &__button
+    margin-top: 15px
   &__info
     font-style: normal
     font-weight: bold
