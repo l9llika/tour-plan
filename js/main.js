@@ -62,14 +62,21 @@ function closeModal(event) {
             minlength: "Name at least 2 letters",
           },
           email: {
-            required: "We need your email address to contact you",
+            required: "We need your email address",
             email: "Your email address must be in the format of name@domain.com",
           },
           phone: {
             required: "Enter your phone number",
           },
+          mailnews: {
+            required: "We need your email address",
+            mailnews: "Your email address must be in the format of name@domain.com",
+          },
         },
       });
     });
     AOS.init();
+  $(document).ready(function(){
+    $('.phone').mask('+7 (000) 000-00-00');
+  });
 });
