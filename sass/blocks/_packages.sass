@@ -1,0 +1,187 @@
+.packages
+  margin-top: 40px
+  margin-bottom: 70px
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    color: $dark
+    margin-top: 0
+    margin-bottom: 65px
+  &-wrapper
+    display: grid
+    grid-template-columns: repeat(3, minmax(min-content, 1fr))
+    grid-gap: 30px
+    grid-auto-rows: minmax(40px, min-content)
+    align-items: start
+
+.advcard
+  width: 350px
+  height: 500px
+  background-color: $dark
+  border-radius: 8px
+  overflow: hidden
+  position: relative
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+  &__narrow
+    width: 350px
+    height: 500px
+    background-color: $dark
+    border-radius: 8px
+    overflow: hidden
+    position: relative
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    display: none
+  &__wide
+    width: 730px
+    height: 500px
+    grid-column: span 2
+    background-color: $dark
+    border-radius: 8px
+    overflow: hidden
+    position: relative
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    display: flex
+    justify-content: space-between
+  &__flash
+    position: absolute
+    top: 26px
+    left: 0
+    font-style: normal
+    font-weight: 600
+    font-size: 8px
+    line-height: 10px
+    color: $light
+    background-color: $primary
+    padding: 4px 9px
+    border-radius: 0px 4px 4px 0px
+    &--wide
+      position: absolute
+      top: 26px
+      left: 0
+      font-weight: 600
+      font-size: 12px
+      line-height: 15px
+      color: $light
+      background-color: $primary
+      padding: 8px 20px 8px 12px
+      border-radius: 0px 4px 4px 0px
+  &__image
+    width: 350px
+    height: 250px
+    object-fit: cover
+    &--wide
+      width: 366px
+      height: 500px
+      object-fit: cover
+  &-wrapper
+    padding: 26px 21px 25px 32px
+    &--wide
+      width: 364px
+      height: 500px
+      padding: 47px 21px 30px 43px
+  &__stars
+    display: flex
+    flex-basis: 100%
+    align-items: flex-start
+    margin-bottom: 5px
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    color: $light
+    margin-top: 0
+    margin-bottom: 24px
+    &--wide
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      color: $light
+      margin-top: 0
+      margin-bottom: 24px
+  &__text
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    color: $light
+    display: none
+    &--wide
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 160.6%
+      color: $light
+      display: block
+      margin-bottom: 48px
+  &__room
+    margin-bottom: 0px
+  &__person
+    display: flex
+    align-items: center
+    margin-bottom: 10px
+  &__icon
+    width: 14px
+    height: 14px
+    margin-right: 14px
+  &__description
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    color: $light
+  &__bottom
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-top: 24px
+    &--wide
+      display: flex
+      align-items: center
+      justify-content: space-between
+      margin-top: 34px
+  &__price
+    display: flex
+    flex-direction: column
+    &--old
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 18px
+      text-decoration-line: line-through
+      color: $light
+      margin-bottom: 5px
+    &--new
+      font-style: normal
+      font-weight: bold
+      font-size: 24px
+      line-height: 30px
+      color: $light
+  &__button
+    width: 120px
+    height: 40px
+    padding: 11px 27px
+    margin-top: 20px
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: $light
+    background-color: $primary
+    border-radius: 4px
+    border: none
+    cursor: pointer
